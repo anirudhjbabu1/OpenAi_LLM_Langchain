@@ -3,11 +3,10 @@
 ```
 from secret_key import openapi_key
 import os
-os.environ['OPENAI_API_KEY'] =openapi_key `
-``
-
-
-```from langchain.llms import OpenAI
+os.environ['OPENAI_API_KEY'] =openapi_key
+```
+```
+from langchain.llms import OpenAI
 
 llm = OpenAI(temperature=0.6)
 name = llm("I want to open a restaurant for Indian food. Suggest a fancy name for this.")

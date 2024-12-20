@@ -1,6 +1,8 @@
 # OpenAi_LLM_Langchain
 
 **1. Install openai and langchain**
+**2. Create an OpenAi account**
+**3. open Jupyter notebook**
 ```
 from secret_key import openapi_key
 import os

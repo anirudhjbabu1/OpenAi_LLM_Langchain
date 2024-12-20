@@ -1,5 +1,6 @@
 # OpenAi_LLM_Langchain
 
+**1. Install openai and langchain**
 ```
 from secret_key import openapi_key
 import os
